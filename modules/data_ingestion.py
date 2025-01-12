@@ -30,4 +30,4 @@ def load_and_clean_data(filepath):
         return data
     except Exception as e:
         print("An error occurred during data ingestion: {}".format(e))
-        return None
+        return Nothing
